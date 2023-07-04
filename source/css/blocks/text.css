@@ -1,0 +1,17 @@
+.text {
+    margin: 0;
+
+    font-size: 16px;
+}
+
+.text--white {
+    color: #FFFFFF;
+}
+
+.text--medium {
+    font-size: 20px;
+}
+
+.text--bold {
+    font-weight: 700;
+}

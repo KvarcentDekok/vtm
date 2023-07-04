@@ -1,0 +1,16 @@
+@import "fonts.css";
+@import "variables.css";
+@import "global.css";
+@import "blocks/header.css";
+@import "blocks/container.css";
+@import "blocks/contacts.css";
+@import "blocks/social.css";
+@import "blocks/visually-hidden.css";
+@import "blocks/navigation.css";
+@import "blocks/dropdown.css";
+@import "blocks/logo.css";
+@import "blocks/home.css";
+@import "blocks/home-slider.css";
+@import "blocks/text.css";
+@import "blocks/slider.css";
+@import "blocks/home-background-slider.css";

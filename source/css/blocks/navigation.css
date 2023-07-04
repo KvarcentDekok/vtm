@@ -1,0 +1,30 @@
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.navigation__list {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.navigation__link {
+    padding: 12px 9px;
+    border-bottom: 1px solid transparent;
+
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.navigation__link:hover {
+    color: var(--orange-color);
+
+    border-bottom-color: var(--orange-color);
+}

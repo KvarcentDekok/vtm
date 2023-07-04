@@ -1,0 +1,6 @@
+.dropdown {
+    position: absolute;
+
+    visibility: hidden;
+    opacity: 0;
+}
