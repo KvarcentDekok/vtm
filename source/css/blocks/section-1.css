@@ -1,0 +1,22 @@
+.section-1 {
+    padding-top: 400px;
+    padding-bottom: 24px;
+    margin-top: -318px;
+
+    position: relative;
+    z-index: 1;
+
+    background-image:
+            url("../img/section-1-background-1.webp"),
+            url("../img/section-1-background-1.webp"),
+            url("../img/section-1-background.webp"),
+            linear-gradient(to bottom, #FFFFFF, #FFFFFF 80%, transparent 80%);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: top left, top right, bottom;
+}
+
+.section-1__text-content {
+    height: 272px;
+
+    overflow-y: auto;
+}

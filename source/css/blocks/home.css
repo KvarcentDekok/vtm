@@ -2,15 +2,16 @@
     padding-top: 339px;
 
     position: relative;
+    z-index: 2;
 
-    background-color: #000000;
+    background-image: linear-gradient(to bottom, #000000, #000000 80%, transparent 80%);
 }
 
 .home::before {
     position: absolute;
     top: 0;
     right: 0;
-    bottom: 0;
+    bottom: 318px;
     left: 0;
     z-index: 1;
 

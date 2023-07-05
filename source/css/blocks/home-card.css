@@ -1,0 +1,67 @@
+.home-card {
+    height: 673px;
+    border: 2px solid #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 539px 24px 48px;
+    margin: 0;
+    align-items: center;
+
+    text-decoration: none;
+    text-align: center;
+
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    transition: all 200ms linear;
+    box-shadow: 0 19px 75px 0 rgba(0, 0, 0, 0.14);
+}
+
+a.home-card:hover {
+    border-color: var(--orange-color);
+}
+
+.home-card--production {
+    background-image: url("../img/card-production.webp");
+    background-position: 0 55px;
+}
+
+.home-card--installation {
+    background-image: url("../img/card-installation.webp");
+}
+
+.home-card--service {
+    background-image:
+            url("../img/card-service-1.webp"),
+            url("../img/card-service-2.webp"),
+            url("../img/card-service-3.webp"),
+            url("../img/card-service-4.webp");
+    background-position: left top, right bottom 30px, right top 80px, left 10px top 170px;
+}
+
+.home-card--processing {
+    background-image:
+            url("../img/card-processing-1.webp"),
+            url("../img/card-processing-2.webp");
+}
+
+.home-card__text {
+    margin: 0 0 7px;
+
+    color: #333333;
+    font-size: 20px;
+    font-family: "Benzin", "Arial", sans-serif;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.home-card__link {
+    color: rgba(51, 51, 51, 0.74);
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.home-card__link:hover {
+    text-decoration: underline;
+}

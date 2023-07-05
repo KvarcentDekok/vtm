@@ -15,3 +15,15 @@
 .text--bold {
     font-weight: 700;
 }
+
+.text--w-60 {
+    width: 60%;
+}
+
+.text--w-70 {
+    width: 70%;
+}
+
+.text--mb-16 {
+    margin-bottom: 16px;
+}

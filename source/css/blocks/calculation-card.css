@@ -1,0 +1,81 @@
+.calculation-card {
+    width: 733px;
+    height: 266px;
+    padding: 28px 26px;
+
+    position: relative;
+
+    border-radius: 10px;
+    background: url("../img/calculation-card-background.webp") no-repeat center;
+}
+
+.calculation-card--mt-80 {
+    margin-top: 80px;
+}
+
+.calculation-card::before {
+    width: 70px;
+    height: 70px;
+
+    position: absolute;
+    top: -25px;
+    right: -23px;
+
+    content: "";
+
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.24);
+    backdrop-filter: blur(6px);
+}
+
+.calculation-card::after {
+    width: 30px;
+    height: 30px;
+
+    position: absolute;
+    top: -5px;
+    right: -3px;
+
+    content: "";
+
+    border-radius: 50%;
+    background-color: #333333;
+}
+
+.calculation-card__button {
+    padding: 12px 10px 12px 45px;
+    border: none;
+
+    position: absolute;
+    right: 41px;
+    bottom: 64px;
+
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 700;
+
+    background-color: var(--orange-color);
+    border-radius: 1px;
+    cursor: pointer;
+    transition: all 200ms linear;
+}
+
+.calculation-card__button:hover {
+    filter: brightness(90%);
+}
+
+.calculation-card__button::before {
+    width: 27px;
+    height: 27px;
+
+    position: absolute;
+    top: 50%;
+    left: 8px;
+
+    content: "";
+
+    transform: translateY(-50%);
+    background: #FFFFFF url("../img/icon-chart-pie.svg") no-repeat center;
+    border-radius: 1px;
+}
