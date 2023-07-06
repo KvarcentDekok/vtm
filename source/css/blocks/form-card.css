@@ -1,0 +1,40 @@
+.form-card {
+    width: 100%;
+    padding: 32px 69px 26px 335px;
+    display: flex;
+    gap: 47px;
+
+    position: relative;
+    z-index: 1;
+
+    background-color: #FFFFFF;
+    background-image:
+            url("../img/form-card-background-1.webp"),
+            url("../img/form-card-background-2.webp"),
+            url("../img/form-card-background-3.webp");
+    background-repeat: no-repeat;
+    background-position: left;
+    border-radius: 5px;
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.18);
+}
+
+.form-card--mt-90 {
+    margin-top: 90px;
+}
+
+.form-card__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px 12px;
+}
+
+.form-card__button-wrapper {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.form-card__text {
+    color: rgba(51, 51, 51, 0.80);
+    font-size: 9px;
+}

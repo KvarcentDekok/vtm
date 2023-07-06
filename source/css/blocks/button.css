@@ -1,0 +1,32 @@
+.button {
+    padding: 12px 50px;
+    border: 1px solid var(--orange-color);
+
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+
+    border-radius: 1px;
+    background-color: var(--orange-color);
+    transition: all 200ms linear;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(250, 100, 0, 0.54);
+}
+
+.button:hover {
+    color: var(--orange-color);
+
+    background-color: #FFFFFF;
+}
+
+.button--dark {
+    background-color: #333333;
+    border-color: #333333;
+    box-shadow: none;
+}
+
+.button--dark:hover {
+    color: #333333;
+    border-color: #333333;
+}

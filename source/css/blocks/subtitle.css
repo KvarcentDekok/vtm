@@ -7,3 +7,23 @@
     font-weight: 700;
     line-height: 35px;
 }
+
+.subtitle--white {
+    color: #FFFFFF;
+}
+
+.subtitle--mb-55 {
+    margin-bottom: 55px;
+}
+
+.subtitle--mb-30 {
+    margin-bottom: 30px;
+}
+
+.subtitle--mb-10 {
+    margin-bottom: 10px;
+}
+
+.subtitle--mt-20 {
+    margin-top: 20px;
+}

@@ -1,0 +1,128 @@
+.features {
+    display: grid;
+    grid-template-columns: 117px 157px;
+    grid-template-rows: repeat(4, 92px);
+    grid-gap: 20px 12px;
+    margin: 0;
+    padding: 0;
+
+    position: relative;
+
+    list-style: none;
+}
+
+.features::before {
+    width: 1308px;
+    height: 904px;
+
+    position: absolute;
+    top: -108px;
+    left: -375px;
+    z-index: 0;
+
+    content: "";
+
+    background-image: url("../img/features-background-2.webp"), url("../img/features-background-1.webp");
+    background-repeat: no-repeat;
+    background-position: center bottom -139px, top center;
+    pointer-events: none;
+}
+
+.features__item {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
+    position: relative;
+    z-index: 1;
+
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.18);
+}
+
+.features__item:nth-of-type(1) {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.features__item:nth-of-type(1)::before {
+    width: 34px;
+    height: 34px;
+
+    position: absolute;
+    top: -3px;
+    left: 137px;
+
+    content: "";
+
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.19);
+    backdrop-filter: blur(4px);
+}
+
+.features__item:nth-of-type(1)::after {
+    width: 16px;
+    height: 16px;
+
+    position: absolute;
+    top: 6px;
+    left: 146px;
+
+    content: "";
+
+    border-radius: 50%;
+    background-color: var(--orange-color);
+}
+
+.features__item:nth-of-type(2) {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.features__item:nth-of-type(3) {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.features__item:nth-of-type(4) {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+.features__item:nth-of-type(5) {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+
+.features__item:nth-of-type(6) {
+    grid-column: 1 / 3;
+    grid-row: 4 / 5;
+}
+
+.features__text-big {
+    color: var(--orange-color);
+    font-family: "Benzin", "Arial", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.features__text-medium {
+    color: var(--orange-color);
+    font-family: "Benzin", "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.features__text-small {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+}

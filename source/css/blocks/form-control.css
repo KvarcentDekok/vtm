@@ -1,0 +1,98 @@
+.form-control {
+    position: relative;
+}
+
+.form-control--name {
+    width: 179px;
+}
+
+.form-control--name::before,
+.form-control--phone::before {
+    width: 30px;
+    height: 28px;
+    border: 1px solid #DEDEDE;
+
+    position: absolute;
+    top: 50%;
+    right: 10px;
+
+    content: "";
+
+    border-radius: 2px;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.form-control--name::before {
+    background: url("../img/icon-user.svg") no-repeat center;
+}
+
+.form-control--phone::before {
+    background: url("../img/icon-phone-gray.svg") no-repeat center;
+}
+
+.form-control--phone {
+    width: 188px;
+}
+
+.form-control--message {
+    width: 379px;
+}
+
+.form-control__input {
+    width: 100%;
+    padding: 12px 20px 4px;
+    border: 1px solid #DEDEDE;
+
+    color: #333333;
+    font-size: 14px;
+    line-height: 26px;
+
+    border-radius: 2px;
+    resize: none;
+}
+
+.form-control__input:hover {
+    border-color: var(--orange-color);
+}
+
+.form-control__input::placeholder {
+    color: transparent;
+}
+
+.form-control__input:placeholder-shown {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.form-control__input:focus {
+    outline: none;
+    border-color: var(--orange-color);
+}
+
+.form-control--name .form-control__input,
+.form-control--phone .form-control__input {
+    padding-right: 50px;
+}
+
+.form-control__label {
+    position: absolute;
+    top: 2px;
+    left: 20px;
+
+    color: var(--orange-color);
+    font-size: 10px;
+    line-height: 18px;
+
+    transition: all 200ms linear;
+}
+
+.form-control__input:placeholder-shown + .form-control__label {
+    top: 8px;
+
+    color: #333333;
+    font-size: 14px;
+    line-height: 26px;
+
+    pointer-events: none;
+}

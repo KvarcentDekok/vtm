@@ -20,5 +20,14 @@
 @import "blocks/home-card.css";
 @import "blocks/section-1.css";
 @import "blocks/section-2.css";
+@import "blocks/section-3.css";
+@import "blocks/section-4.css";
 @import "blocks/calculation-card.css";
 @import "blocks/subtitle.css";
+@import "blocks/industry.css";
+@import "blocks/button.css";
+@import "blocks/features.css";
+@import "blocks/form-card.css";
+@import "blocks/form-control.css";
+@import "blocks/link.css";
+@import "blocks/clients-slider.css";
