@@ -22,6 +22,7 @@
 @import "blocks/section-2.css";
 @import "blocks/section-3.css";
 @import "blocks/section-4.css";
+@import "blocks/section-5.css";
 @import "blocks/calculation-card.css";
 @import "blocks/subtitle.css";
 @import "blocks/industry.css";
@@ -31,3 +32,6 @@
 @import "blocks/form-control.css";
 @import "blocks/link.css";
 @import "blocks/clients-slider.css";
+@import "blocks/example-card.css";
+@import "blocks/examples-slider.css";
+@import "blocks/footer.css";

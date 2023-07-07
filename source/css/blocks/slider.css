@@ -6,6 +6,7 @@
 .slider__controls {
     display: flex;
     margin-top: 24px;
+    gap: 20px;
 }
 
 .slider__control {
@@ -25,7 +26,7 @@
     background-color: #FFFFFF;
 }
 
-.slider__control:hover {
+.slider__control:not(.slider__control--disabled):hover {
     color: var(--orange-color);
 }
 
@@ -47,4 +48,44 @@
     border-left: none;
 
     border-radius: 0 2px 2px 0;
+}
+
+.slider__control--disabled {
+    opacity: 0.4;
+    cursor: initial;
+}
+
+.slider__pagination {
+    width: auto !important;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    position: initial;
+
+    color: #FFFFFF;
+}
+
+.slider__pagination-bullet {
+    border: none;
+    padding: 0;
+
+    color: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 200ms linear;
+}
+
+.slider__pagination-bullet--active {
+    color: var(--orange-color);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.slider__buttons {
+    display: flex;
 }

@@ -2,3 +2,16 @@
     display: flex;
     gap: 40px;
 }
+
+.clients-slider__slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -12px;
+}
+
+.clients-slider__logo {
+    margin-bottom: auto;
+    margin-top: auto;
+}

@@ -1,0 +1,7 @@
+.section-5 {
+    padding: 98px 0;
+
+    background-image: url("../img/section-5-background-1.webp"), url("../img/section-5-background-2.webp");
+    background-repeat: repeat-y;
+    background-position: left, right;
+}

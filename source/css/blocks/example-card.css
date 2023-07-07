@@ -1,0 +1,53 @@
+.example-card {
+    display: flex;
+    border: 1px solid var(--orange-color);
+    height: 282px;
+
+    text-decoration: none;
+
+    border-radius: 5px;
+    box-shadow: 0 4px 35px 0 rgba(0, 0, 0, 0.12);
+    transition: all 200ms linear;
+}
+
+.example-card:hover {
+    box-shadow: 0 6px 40px 0 rgba(0, 0, 0, 0.2);
+}
+
+.example-card__wrapper {
+    padding: 33px 27px;
+    display: flex;
+    flex-direction: column;
+}
+
+.example-card__title {
+    margin: 0;
+
+    color: var(--orange-color);
+    font-family: "Benzin", "Arial", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.example-card__text {
+    margin-top: 0;
+    margin-bottom: auto;
+
+    color: #333333;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.example-card__small-text {
+    margin: 0;
+
+    color: rgba(51, 51, 51, 0.74);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.example-card__image {
+    max-width: 41%;
+    margin-left: auto;
+}

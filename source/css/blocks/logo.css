@@ -2,3 +2,7 @@
     display: flex;
     align-items: center;
 }
+
+.logo__image {
+    max-width: 100%;
+}

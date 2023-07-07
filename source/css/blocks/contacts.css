@@ -64,3 +64,15 @@ a.contacts__item:hover {
 .contacts__item--email::before {
     background-image: url("../img/icon-envelope.svg");
 }
+
+.contacts__item--empty {
+    padding-left: 0;
+}
+
+.contacts__item--empty::before {
+    content: none;
+}
+
+.contacts__item--empty::after {
+    content: none;
+}

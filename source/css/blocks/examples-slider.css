@@ -1,0 +1,9 @@
+.examples-slider__controls {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.examples-slider__pagination {
+    color: #333333;
+}

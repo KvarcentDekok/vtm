@@ -1,0 +1,32 @@
+.footer__top {
+    padding: 27px 0;
+
+    background-color: #F1F1F1;
+}
+
+.footer__contacts {
+    color: rgba(51, 51, 51, 0.70);
+}
+
+.footer__social {
+    color: #707070;
+}
+
+.footer__bottom {
+    background-color: #333333;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__link {
+    color: #FFFFFF;
+    font-size: 10px;
+    line-height: 30px;
+}
+
+.footer__link:hover {
+    color: var(--orange-color);
+}

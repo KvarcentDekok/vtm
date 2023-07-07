@@ -28,3 +28,17 @@
 
     border-bottom-color: var(--orange-color);
 }
+
+.navigation__sub-link {
+    display: block;
+    padding: 12px 0px;
+
+    color: #333333;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.navigation__sub-link:hover {
+    color: var(--orange-color);
+}
