@@ -1,9 +1,9 @@
 @import "fonts.css";
 @import "variables.css";
 @import "global.css";
+@import "blocks/contacts.css";
 @import "blocks/header.css";
 @import "blocks/container.css";
-@import "blocks/contacts.css";
 @import "blocks/social.css";
 @import "blocks/visually-hidden.css";
 @import "blocks/navigation.css";
@@ -35,3 +35,6 @@
 @import "blocks/example-card.css";
 @import "blocks/examples-slider.css";
 @import "blocks/footer.css";
+@import "blocks/modal.css";
+@import "blocks/no-scroll.css";
+@import "blocks/substrate-modal.css";

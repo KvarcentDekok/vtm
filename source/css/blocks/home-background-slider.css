@@ -6,3 +6,9 @@
     left: 0;
     z-index: 0;
 }
+
+@media (max-width: 800px) {
+    .home-background-slider {
+        display: none;
+    }
+}

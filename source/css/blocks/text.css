@@ -39,3 +39,13 @@
 .text--mb-40 {
     margin-bottom: 40px;
 }
+
+@media (max-width: 800px) {
+    .text {
+        font-size: 14px;
+    }
+
+    .text--medium {
+        font-size: 16px;
+    }
+}

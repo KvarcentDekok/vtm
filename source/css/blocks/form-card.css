@@ -13,7 +13,7 @@
             url("../img/form-card-background-2.webp"),
             url("../img/form-card-background-3.webp");
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: left top -126px, top -260px left -270px, left -117px top -62px;
     border-radius: 5px;
     box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.18);
 }

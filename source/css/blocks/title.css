@@ -69,3 +69,10 @@
     border-radius: 50%;
     background-color: #333333;
 }
+
+@media (max-width: 800px) {
+    .title {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}

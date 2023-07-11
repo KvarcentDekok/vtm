@@ -16,3 +16,19 @@
 .home-slider__text-large {
     font-size: 50px;
 }
+
+@media (max-width: 800px) {
+    .home-slider {
+        width: 100%;
+    }
+
+    .home-slider__text {
+        margin-bottom: 16px;
+
+        font-size: 16px;
+    }
+
+    .home-slider__text-large {
+        font-size: 26px;
+    }
+}

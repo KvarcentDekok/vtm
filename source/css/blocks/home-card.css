@@ -65,3 +65,39 @@ a.home-card:hover {
 .home-card__link:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 800px) {
+    .home-card {
+        height: auto;
+        min-height: 204px;
+        padding: 18px 18px 18px 168px;
+        align-items: flex-start;
+        justify-content: center;
+
+        text-align: left;
+    }
+
+    .home-card--production {
+        background-position: 0 -57px;
+        background-size: 164px;
+    }
+
+    .home-card--installation {
+        background-position: 0 -57px;
+        background-size: 164px;
+    }
+
+    .home-card--service {
+        background-position: 0 -57px;
+        background-size: 164px;
+    }
+
+    .home-card--processing {
+        background-position: 0 -57px;
+        background-size: 164px;
+    }
+
+    .home-card__text {
+        font-size: 18px;
+    }
+}

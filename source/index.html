@@ -49,7 +49,11 @@
             </div>
         </div>
 
-        <nav class="navigation header__navigation">
+        <button type="button" class="header__toggle" aria-expanded="false" aria-controls="navigation">
+            <span class="visually-hidden">Показать навигацию</span>
+        </button>
+
+        <nav id="navigation" class="navigation header__navigation">
             <ul class="navigation__list">
                 <li class="navigation__item">
                     <a href="#" class="navigation__link" data-call="dropdown">Производство</a>
@@ -110,7 +114,7 @@
                 <ul class="swiper-wrapper slider__list">
                     <li class="swiper-slide slider__slide">
                         <p class="home-slider__text">
-                            <span class="home-slider__text-large">Изготовление,</span> монтаж и обслуживание
+                            <span class="home-slider__text-large">Изготовление,</span> <br> монтаж и обслуживание
                         </p>
 
                         <p class="text text--white">
@@ -121,7 +125,7 @@
 
                     <li class="swiper-slide slider__slide">
                         <p class="home-slider__text">
-                            <span class="home-slider__text-large">Изготовление,</span> монтаж и обслуживание
+                            <span class="home-slider__text-large">Изготовление,</span> <br> монтаж и обслуживание
                         </p>
 
                         <p class="text text--white">
@@ -132,7 +136,7 @@
 
                     <li class="swiper-slide slider__slide">
                         <p class="home-slider__text">
-                            <span class="home-slider__text-large">Изготовление,</span> монтаж и обслуживание
+                            <span class="home-slider__text-large">Изготовление,</span> <br> монтаж и обслуживание
                         </p>
 
                         <p class="text text--white">
@@ -276,7 +280,10 @@
                     или металлоконструкции по Вашим чертежам.
                 </p>
 
-                <button class="calculation-card__button">Рассчитать</button>
+                <button class="calculation-card__button" data-call="modal" aria-controls="modal-form"
+                        aria-haspopup="dialog">
+                    Рассчитать
+                </button>
             </article>
         </div>
     </section>
@@ -600,6 +607,55 @@
             </div>
         </div>
     </section>
+
+    <div class="modal" role="dialog" id="modal-form" tabindex="-1" data-call="close" aria-modal="true"
+         aria-labelledby="modal-form-label">
+        <div class="modal__content">
+            <button type="button" class="modal__close" data-call="close">
+                <svg width="16" height="16" viewBox="0 0 16 16" class="modal__close-icon">
+                    <use xlink:href="img/sprite.svg#cross"></use>
+                </svg>
+
+                <span class="visually-hidden">Закрыть модальное окно</span>
+            </button>
+
+            <form class="form-card modal__form-card">
+                <h2 class="title" id="modal-form-label">
+                    <span class="text-orange">Больщой</span> заголовок
+                </h2>
+
+                <div class="form-card__wrapper">
+                    <div class="form-control form-control--name">
+                        <input type="text" id="name-modal" class="form-control__input" placeholder="Ваше имя" required>
+                        <label for="name-modal" class="form-control__label">Ваше имя</label>
+                    </div>
+
+                    <div class="form-control form-control--phone">
+                        <input type="tel" id="phone-modal" class="form-control__input" placeholder="+7 999 999 99 99"
+                               required>
+
+                        <label for="phone-modal" class="form-control__label">Номер телефона</label>
+                    </div>
+
+                    <div class="form-control form-control--message">
+                        <textarea id="message-modal" class="form-control__input" placeholder="Сообщение" rows="2"
+                                  required></textarea>
+
+                        <label for="message-modal" class="form-control__label">Сообщение</label>
+                    </div>
+
+                    <div class="form-card__button-wrapper">
+                        <button type="submit" class="button button--orange">Отправить</button>
+
+                        <p class="form-card__text">
+                            Нажимая на кнопку вы принимаете условие
+                            <a href="#" class="link" target="_blank">пользовательского соглашения</a>
+                        </p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
 </main>
 
 <footer class="footer">

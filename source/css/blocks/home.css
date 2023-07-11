@@ -27,3 +27,16 @@
     position: relative;
     z-index: 1;
 }
+
+@media (max-width: 800px) {
+    .home {
+        padding-top: 115px;
+
+        background: #000000 url("../img/background-slider.webp") no-repeat center;
+        background-position: inherit;
+    }
+
+    .home__wrapper {
+        margin-top: 70px;
+    }
+}

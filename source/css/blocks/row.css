@@ -39,7 +39,7 @@
     }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 800px) {
     .row__col-sm-3 {
         width: 25%;
     }
