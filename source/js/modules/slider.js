@@ -38,13 +38,18 @@ export function initSliderClients() {
     const sliderClients = new Swiper('#clients-slider', {
         modules: [Navigation, Pagination],
         spaceBetween: 56,
-        slidesPerView: 4,
+        slidesPerView: 2,
         navigation: {
             nextEl: '.slider__control--right[data-slider="clients-slider"]',
             prevEl: '.slider__control--left[data-slider="clients-slider"]',
             disabledClass: 'slider__control--disabled'
         },
         pagination: getPagination('clients-slider'),
+        breakpoints: {
+            800: {
+                slidesPerView: 4
+            }
+        }
     });
 }
 
@@ -52,12 +57,17 @@ export function initSliderExamples() {
     const sliderExamples = new Swiper('#examples-slider', {
         modules: [Navigation, Pagination],
         spaceBetween: 14,
-        slidesPerView: 2,
+        slidesPerView: 1,
         navigation: {
             nextEl: '.slider__control--right[data-slider="examples-slider"]',
             prevEl: '.slider__control--left[data-slider="examples-slider"]',
             disabledClass: 'slider__control--disabled'
         },
         pagination: getPagination('examples-slider'),
+        breakpoints: {
+            800: {
+                slidesPerView: 2
+            }
+        }
     });
 }

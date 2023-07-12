@@ -27,3 +27,10 @@
 .subtitle--mt-20 {
     margin-top: 20px;
 }
+
+@media (max-width: 800px) {
+    .subtitle {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}

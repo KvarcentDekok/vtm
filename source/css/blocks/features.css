@@ -126,3 +126,9 @@
     font-weight: 600;
     line-height: 26px;
 }
+
+@media (max-width: 800px) {
+    .features {
+        display: none;
+    }
+}

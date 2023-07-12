@@ -57,3 +57,30 @@
 
     overflow-y: auto;
 }
+
+@media (max-width: 800px) {
+    .section-3 {
+        padding-bottom: 30px;
+
+        background-image: none;
+    }
+
+    .section-3::before {
+        left: initial;
+        right: 0;
+    }
+
+    .section-3::after {
+        height: 575px;
+
+        background: var(--orange-color) url("../img/section-3-background-4.webp") no-repeat center / cover;
+    }
+
+    .section-3__text-content {
+        height: auto;
+    }
+
+    .section-3__wrapper--w-57 {
+        width: auto;
+    }
+}

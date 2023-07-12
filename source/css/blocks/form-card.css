@@ -38,3 +38,21 @@
     color: rgba(51, 51, 51, 0.80);
     font-size: 9px;
 }
+
+@media (max-width: 800px) {
+    .form-card {
+        padding: 44px 20px 31px;
+        flex-wrap: wrap;
+        gap: 22px;
+
+        background-image: url("../img/form-card-background-1.webp");
+        background-position: top -65px right -50px;
+        background-size: 244px;
+    }
+
+    .form-card__button-wrapper {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+}

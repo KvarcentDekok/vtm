@@ -20,3 +20,10 @@
 .social__item:hover {
     color: var(--orange-color);
 }
+
+@media (max-width: 800px) {
+    .social__icon {
+        width: 30px;
+        height: 30px;
+    }
+}

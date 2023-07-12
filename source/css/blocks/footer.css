@@ -30,3 +30,11 @@
 .footer__link:hover {
     color: var(--orange-color);
 }
+
+@media (max-width: 800px) {
+    .footer__contacts {
+        flex-direction: column;
+        gap: 24px;
+        align-items: flex-start;
+    }
+}

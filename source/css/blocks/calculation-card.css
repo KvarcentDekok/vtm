@@ -79,3 +79,26 @@
     background: #FFFFFF url("../img/icon-chart-pie.svg") no-repeat center;
     border-radius: 1px;
 }
+
+@media (max-width: 800px) {
+    .calculation-card {
+        width: 100%;
+        height: auto;
+        padding-bottom: 57px;
+
+        background-size: cover;
+    }
+
+    .calculation-card::before,
+    .calculation-card::after {
+        content: none;
+    }
+
+    .calculation-card__button {
+        margin-top: 31px;
+
+        position: relative;
+        right: 0;
+        bottom: 0;
+    }
+}

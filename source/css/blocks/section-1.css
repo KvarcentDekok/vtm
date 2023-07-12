@@ -20,3 +20,10 @@
 
     overflow-y: auto;
 }
+
+@media (max-width: 800px) {
+    .section-1__text-content {
+        height: auto;
+        max-height: 468px;
+    }
+}

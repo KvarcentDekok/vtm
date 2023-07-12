@@ -96,3 +96,11 @@
 
     pointer-events: none;
 }
+
+@media (max-width: 800px) {
+    .form-control--name,
+    .form-control--phone,
+    .form-control--message {
+        width: 100%;
+    }
+}

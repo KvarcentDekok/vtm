@@ -75,3 +75,9 @@
     background-color: var(--orange-color);
     transform: translateY(-50%);
 }
+
+@media (max-width: 800px) {
+    .industry--mb-sm-60 {
+        margin-bottom: 60px;
+    }
+}

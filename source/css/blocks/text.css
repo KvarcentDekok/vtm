@@ -48,4 +48,8 @@
     .text--medium {
         font-size: 16px;
     }
+
+    .text--w-sm-70 {
+        width: 70%;
+    }
 }

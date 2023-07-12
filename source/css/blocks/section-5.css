@@ -5,3 +5,9 @@
     background-repeat: repeat-y;
     background-position: left, right;
 }
+
+@media (max-width: 800px) {
+    .section-5 {
+        background-image: none;
+    }
+}
