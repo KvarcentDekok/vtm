@@ -39,7 +39,7 @@
     font-size: 9px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1100px) {
     .form-card {
         padding: 44px 20px 31px;
         flex-wrap: wrap;

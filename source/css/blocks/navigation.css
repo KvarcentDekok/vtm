@@ -23,7 +23,8 @@
     text-decoration: none;
 }
 
-.navigation__link:hover {
+.navigation__link:hover,
+.navigation__link.navigation__link--active {
     color: var(--orange-color);
 
     border-bottom-color: var(--orange-color);
@@ -31,7 +32,7 @@
 
 .navigation__sub-link {
     display: block;
-    padding: 12px 0px;
+    padding: 12px 0;
 
     color: #333333;
     font-size: 16px;

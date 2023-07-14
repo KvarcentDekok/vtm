@@ -1,6 +1,8 @@
 .button {
     padding: 12px 50px;
     border: 1px solid var(--orange-color);
+    display: block;
+    width: fit-content;
 
     color: #FFFFFF;
     font-size: 14px;

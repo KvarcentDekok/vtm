@@ -65,7 +65,7 @@ export function initSliderExamples() {
         },
         pagination: getPagination('examples-slider'),
         breakpoints: {
-            800: {
+            1100: {
                 slidesPerView: 2
             }
         }

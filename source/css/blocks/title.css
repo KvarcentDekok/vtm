@@ -70,19 +70,21 @@
     background-color: #333333;
 }
 
-@media (max-width: 800px) {
-    .title {
-        font-size: 18px;
-        line-height: 28px;
+@media (max-width: 1100px) {
+    .title--circles-1::before,
+    .title--circles-1::after {
+        content: none;
     }
 
     .title__decoration-1 {
         display: none;
     }
+}
 
-    .title--circles-1::before,
-    .title--circles-1::after {
-        content: none;
+@media (max-width: 800px) {
+    .title {
+        font-size: 18px;
+        line-height: 28px;
     }
 
     .title--w-sm-70 {

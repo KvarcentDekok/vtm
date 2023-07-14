@@ -1,0 +1,113 @@
+<header class="header @@class">
+  <div class="container header__container">
+    <a href="index.html" class="logo header__logo">
+      <svg width="130" height="121" viewBox="0 0 130 121">
+        <use xlink:href="img/sprite.svg#logo"/>
+      </svg>
+
+      <span class="visually-hidden">На главную</span>
+    </a>
+
+    <div class="contacts header__contacts">
+      <a href="tel:+79805394118" class="contacts__item contacts__item--phone">+7 (980) 539-41-18</a>
+      <p class="contacts__item contacts__item--address">с. Бабяково, ул. Индустриальная 30,36</p>
+      <a href="mailto:vtm-36@yandex.ru" class="contacts__item contacts__item--email">vtm-36@yandex.ru</a>
+
+      <div class="social header__social">
+        <a href="#" class="social__item" target="_blank">
+          <svg width="18" height="9" viewBox="0 0 18 9" xmlns="http://www.w3.org/2000/svg">
+            <use xlink:href="img/sprite.svg#vk"/>
+          </svg>
+
+          <span class="visually-hidden">Мы в VK</span>
+        </a>
+
+        <a href="#" class="social__item" target="_blank">
+          <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+            <use xlink:href="img/sprite.svg#telegram"/>
+          </svg>
+
+          <span class="visually-hidden">Мы в Telegram</span>
+        </a>
+
+        <a href="#" class="social__item" target="_blank">
+          <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+            <use xlink:href="img/sprite.svg#whatsapp"/>
+          </svg>
+
+          <span class="visually-hidden">Мы в WhatsApp</span>
+        </a>
+      </div>
+    </div>
+
+    <button type="button" class="header__toggle" aria-expanded="false" aria-controls="navigation">
+      <svg xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
+        <line class="header__toggle-line" x1="9" y1="14" x2="43" y2="14" stroke="white" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round"/>
+        <line class="header__toggle-line" x1="18" y1="21" x2="43" y2="21" stroke="white" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round"/>
+        <line class="header__toggle-line" x1="9" y1="28" x2="43" y2="28" stroke="white" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round"/>
+        <line class="header__toggle-line" x1="18" y1="35" x2="43" y2="35" stroke="white" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+
+      <span class="visually-hidden">Показать навигацию</span>
+    </button>
+
+    <nav id="navigation" class="navigation header__navigation">
+      <ul class="navigation__list header__navigation-list">
+        <li class="navigation__item">
+          <a href="#" class="navigation__link header__navigation-link" data-call="dropdown">Производство</a>
+
+          <ul class="dropdown">
+            <li class="navigation__sub-item">
+              <a href="#" class="navigation__sub-link">Металлоконструкций</a>
+            </li>
+
+            <li class="navigation__sub-item">
+              <a href="#" class="navigation__sub-link">Оборудования</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="navigation__item">
+          <a href="#" class="navigation__link header__navigation-link" data-call="dropdown">Монтаж</a>
+
+          <ul class="dropdown">
+            <li class="navigation__sub-item">
+              <a href="#" class="navigation__sub-link">Металлоконструкций</a>
+            </li>
+
+            <li class="navigation__sub-item">
+              <a href="#" class="navigation__sub-link">Оборудования</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="navigation__item">
+          <a href="#" class="navigation__link header__navigation-link">Обслуживание</a>
+        </li>
+
+        <li class="navigation__item">
+          <a href="metalworking.html"
+             class="navigation__link header__navigation-link @@if (active === 'metalworking') {navigation__link--active}">
+            Металлообработка
+          </a>
+        </li>
+
+        <li class="navigation__item">
+          <a href="#" class="navigation__link header__navigation-link">Портфолио</a>
+        </li>
+
+        <li class="navigation__item">
+          <a href="#" class="navigation__link header__navigation-link">О компании</a>
+        </li>
+
+        <li class="navigation__item">
+          <a href="#" class="navigation__link header__navigation-link">Контакты</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
