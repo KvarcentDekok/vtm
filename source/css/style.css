@@ -18,11 +18,14 @@
 @import "blocks/text-orange.css";
 @import "blocks/row.css";
 @import "blocks/home-card.css";
+@import "blocks/service-cards.css";
 @import "blocks/section-1.css";
 @import "blocks/section-2.css";
 @import "blocks/section-3.css";
 @import "blocks/section-4.css";
 @import "blocks/section-5.css";
+@import "blocks/section-6.css";
+@import "blocks/section-7.css";
 @import "blocks/calculation-card.css";
 @import "blocks/subtitle.css";
 @import "blocks/industry.css";
@@ -38,3 +41,4 @@
 @import "blocks/modal.css";
 @import "blocks/no-scroll.css";
 @import "blocks/substrate-modal.css";
+@import "blocks/service-card.css";

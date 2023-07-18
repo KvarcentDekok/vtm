@@ -40,6 +40,12 @@
     left: 640px;
 }
 
+.title__decoration-2 {
+    position: absolute;
+    top: 50%;
+    right: calc(100% + 44px);
+}
+
 .title--circles-1::before {
     width: 70px;
     height: 70px;
@@ -76,7 +82,8 @@
         content: none;
     }
 
-    .title__decoration-1 {
+    .title__decoration-1,
+    .title__decoration-2 {
         display: none;
     }
 }

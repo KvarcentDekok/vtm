@@ -16,7 +16,7 @@
     box-shadow: 0 4px 15px rgba(250, 100, 0, 0.54);
 }
 
-.button:hover {
+.button:hover{
     color: var(--orange-color);
 
     background-color: #FFFFFF;
@@ -31,4 +31,17 @@
 .button--dark:hover {
     color: #333333;
     border-color: #333333;
+}
+
+.button--outline {
+    color: var(--orange-color);
+
+    background-color: #FFFFFF;
+    box-shadow: none;
+}
+
+.button--outline:hover {
+    color: #FFFFFF;
+
+    background-color: var(--orange-color);
 }
