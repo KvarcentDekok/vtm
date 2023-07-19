@@ -84,36 +84,6 @@
     flex-wrap: wrap;
 }
 
-.service-card__order {
-    margin: 0;
-    padding: 4px 4px 4px 20px;
-    display: flex;
-    gap: 16px;
-    align-items: center;
-
-    color: #FFFFFF;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 26px;
-
-    background-color: #333333;
-    border-radius: 1px;
-}
-
-.service-card__price {
-    display: block;
-    padding: 6px 16px;
-
-    color: #FFFFFF;
-    font-family: "Benzin", "Arial", sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 26px;
-
-    background-color: var(--orange-color);
-    border-radius: 1px;
-}
-
 @media (max-width: 800px) {
     .service-card {
         flex-direction: column;
@@ -160,9 +130,5 @@
         gap: 26px;
         align-items: center;
         padding-bottom: 27px;
-    }
-
-    .service-card__order {
-        width: 100%;
     }
 }
